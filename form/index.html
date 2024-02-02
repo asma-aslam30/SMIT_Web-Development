@@ -1,12 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Asma Aslam</h1>
+
+<body bgcolor="green">
+     
+        
+            <h1>Step 1:Your details</h1>
+            
+            <fieldset class="fff"> <div>
+
+                <pre><label class="label" for="name">Name:          <input type="text" name="name" id="name" size="20"
+                placeholder="First and last name"></label></pre>
+        </fieldset>
+
+        <fieldset  class="fff">
+            <pre><label  class="label" for="email">Email:         <input type="text" name="email" id="email" size="20"
+                placeholder="example@domain.com"></label></pre>
+        </fieldset>
+
+        <fieldset  class="fff">
+            <pre><label class="label"  for="phone">Phone:         <input type="number" name="phone" id="phone" value="userphone" size="30"
+                placeholder="Eg. +447500000000"></label></pre>
+        </fieldset>
+        </div>
+
+
+        <h1>Step 2:Delivery address</h1>
+        <div>
+            <fieldset  class="fff">
+                <pre><label  class="label" for="">Address:</label><br>            <textarea name="address" id="address" cols="50"
+            rows="10"></textarea></pre>
+            </fieldset>
+
+            <fieldset  class="fff">
+                <pre><label  class="label"  for="postcode">Post code:  <input type="text" name="postcode" size="20"></label></pre>
+            </fieldset>
+
+            <fieldset  class="fff">
+                <pre><label   class="label" for="country">Country:    <input type="text" name="country" size="20"></label></pre>
+            </fieldset>
+        </div>
+
+        <h1>
+            Step 3:Card details
+        </h1>
+        <div>
+            <fieldset  class="fff">
+                <pre><label   class="label" for="card">Card type</label></pre>
+
+                <input type="radio" id="visa" name="visa"><img src="" alt="" width="12px" height="10px">VISA
+                </pre>
+
+                <input type="radio" id="AmEx" name="AmEx"><img src="image/amex.png" alt="" width="12px"
+                    height="10px">AmEx </pre>
+
+                <input type="radio" id="for" name="visa"><img src="image/mastercard.png" alt="" width="12px"
+                    height="10px">VISA </pre>
+            </fieldset>
+            <fieldset  class="fff">
+                <pre><label  class="label" for="c-no.">Card number <input type="number" size="20" name="c-no." id="c-no."></label></pre>
+            </fieldset>
+            <fieldset  class="fff">
+                <pre><label  class="label" for="s-code">Security code <input type="number" name="s-code" size="20" id="s-no."></label></pre>
+            </fieldset>
+            <fieldset  class="fff">
+                <pre><label  class="label" for="namecard">Name on card <input type="text" size="20" name="namecard" id="namecard" placeholder="Exact name as on the card"></label></pre>
+            </fieldset>
+            <center><button class="asma" >BUY IT!</button></center>
+        </div>
+     
 </body>
 </html>
