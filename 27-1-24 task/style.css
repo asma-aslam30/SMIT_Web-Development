@@ -1,0 +1,39 @@
+*{
+    align-content: center;
+}
+.purple{
+    background-color:aqua;
+}
+.blue{
+    background-color: purple;
+}
+.orange{
+    background-color: pink;
+}
+.pink{
+    background-color:  orange;
+}
+.yellow{
+    background-color:yellow;
+}
+.darkblue{
+    background-color: rgb(53, 53, 221);
+}
+.darkpink{
+    background-color: palevioletred;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: rgb(175, 72, 134);
+}
+.lightyellow{
+    background-color: yellowgreen;
+}
+.lightblue{
+    background-color: rgb(133, 228, 228);
+}
+.aqua{
+    background-color:  green;
+}
