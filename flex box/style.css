@@ -13,21 +13,104 @@
     border: solid #02161d 5px;
     border-radius: 30px;
 }
-#box1 {
-    font-size: larger;
-    font-weight: bolder;
-}
-#box {
+.box {
     margin-left: 200px;
     font-weight: bold;
 }
-#box2 {
+.head {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.item {
     margin-left: 80px;
     font-weight: bold;
 }
-#box3 {
+.box3 {
     margin-left: 190px;
     font-weight: bold;
+}
+.box5 {
+    background-color: #041014;
+    color: aliceblue;
+    height: 40px;
+    width: 20%;
+    border: solid #02161d 5px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.box6 {
+    background-color: #041014;
+    color: aliceblue;
+    vertical-align: bottom;
+    width: 20%;
+    border: solid #02161d 5px;
+    text-align: center;
+    height: 380px;
+    
+}
+ 
+.box7 {
+    background-color: #041014;
+    color: aliceblue;
+    height: 30px;
+    width: 260px;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    border: solid #041014 5px;
+
+
+
+}
+.box8 {
+    background-color: #041014;
+    text-decoration: none;
+    height: 30px;
+    width: 230px;
+    margin-top: 40px;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    padding-top: px;
+    border: solid #041014 5px;
+
+
+}
+.box1:hover{
+    background-color: white;
+    color: black;
+}
+.box2:hover{
+    background-color: white;
+    color: black;
+}
+.box3:hover{
+    background-color: white;
+    color: black;
+}
+.box4:hover{
+    background-color: white;
+    color: black;
+}
+.box5:hover{
+    background-color: white;
+    color: black;
+}
+.box6:hover{
+    background-color: white;
+    color: black;
+}
+.box7:hover{
+    background-color: white;
+    color: black;
+}
+.box8:hover{
+    background-color: white;
+    color: black;
 }
 button {
     background-color: rgb(139, 81, 9);
@@ -55,31 +138,12 @@ button {
 
 }
 
-#box5 {
-    background-color: #041014;
-    color: aliceblue;
-    height: 40px;
-    width: 20%;
-    border: solid #02161d 5px;
-    text-align: center;
-    font-size: large;
-    font-weight: bold;
-    padding-top: 10px;
-}
+
 
 li {
     padding: 25px;
 }
 
-#box6 {
-    background-color: #041014;
-    color: aliceblue;
-    vertical-align: bottom;
-    width: 20%;
-    border: solid #02161d 5px;
-    text-align: center;
-    height: 380px;
-}
 
 
 
@@ -93,35 +157,9 @@ li {
 
 }
 
-#box7 {
-    background-color: #041014;
-    color: aliceblue;
-    height: 30px;
-    width: 260px;
-    font-size: large;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 10px;
-    border: solid #041014 5px;
 
 
 
-}
-
-#box8 {
-    background-color: #041014;
-    text-decoration: none;
-    height: 30px;
-    width: 230px;
-    margin-top: 40px;
-    font-size: large;
-    font-weight: bold;
-    text-align: center;
-    padding-top: px;
-    border: solid #041014 5px;
-
-
-}
 
 .footer {
 
@@ -132,7 +170,7 @@ li {
     bottom: 100px;
 }
 
-#footer1 {
+.f1 {
     color: #02161d;
     font-size: 50px;
     width: 700px;
@@ -143,7 +181,7 @@ li {
 }
 
 
-#footer2 {
+.f2 {
     background-color: #02161d;
     color: aliceblue;
     font-size: 60px;
@@ -153,7 +191,7 @@ li {
 
 }
 
-#footer3 {
+.f3 {
     border: solid #041014 5px;
     color: #02161d;
     font-size: 50px;
