@@ -1,0 +1,56 @@
+
+*{
+    background-color: lightpink;
+}.Home{
+    color: white;
+    font-family: fantasy;
+    
+}
+.Home:hover{
+    color: white;
+}
+.section-child{
+    width: 50%;
+}
+/* Custom styles for the footer */
+.footer {
+    background-color: #282c37;
+    margin-top: 40px;
+    color: #fff;
+    padding: 40px 0;
+  }
+  
+  .footer-links {
+    margin-bottom: 30px;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    margin-right: 15px;
+  }
+  
+  .footer-links a:hover {
+    color: #f0ad4e;
+    text-decoration: none;
+  }
+  
+  .footer-company-info {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-social-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .footer-social-icons a:hover {
+    color: #f0ad4e;
+    text-decoration: none;
+  }
+.navbar {
+    background-color: #282c37;
+    color: white;
+}  
+ 
