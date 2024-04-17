@@ -1,0 +1,450 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+nav {
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+nav img {
+    height: 15px;
+    height: 15px;
+}
+
+nav ul {
+    float: left;
+    margin-right: 50px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    font-size: 12px;
+    border-width: 1px;
+    border-radius: 0px;
+    text-decoration: none;
+}
+
+.logo {
+    background-color: black;
+}
+
+.p1 {
+    text-align: center;
+}
+
+.p1 a {
+    color: #68A4E1;
+    text-decoration: none;
+}
+
+.ip14Pro {
+    color: white;
+    text-align: center;
+    /* background-image: url("./images/iphone14pro.jpg"); */
+    height: 69rem;
+    background-repeat: no-repeat;
+    background-size: auto 30rem;
+    height: 450px;
+    background-position: center;
+    background-color: white;
+    color: #dcdce2;
+}
+.h1{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: 200px;
+    font-style: bold;
+}
+.h2{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+
+
+}
+.ip14Pro a {
+    color: #68A4E1;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.ip14 {
+    text-align: center;
+    background-image: url("./images/iphone14.jpg");
+    background-repeat: no-repeat;
+    background-size: auto 30rem;
+    height: 450px;
+    background-position: center;
+}
+
+.ip14 a {
+    color: #68A4E1;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.macBook {
+    text-align: center;
+    background-image: url("./images/macbook.jpg");
+    background-repeat: no-repeat;
+    background-size: auto 30rem;
+    height: 450px;
+    background-position: center;
+}
+
+.macBook a {
+    color: #68A4E1;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 150px;
+}
+
+.main a {
+    text-decoration: none;
+    color: #68A4E1;
+}
+
+.box1 {
+    height: 35rem;
+    width: 60rem;
+    background-image: url("./images/back\ to\ school.jpg");
+    text-align: center;
+    background-size: auto 50rem;
+    background-position: center;
+}
+
+.box2 {
+    height: 35rem;
+    width: 60rem;
+    background-image: url("./images/apple\ vision.jpg");
+    background-size: auto 50rem;
+    text-align: center;
+    margin-left: 10px;
+    background-position: center;
+}
+
+.box2 img {
+    margin-top: 45%;
+}
+
+.main2 {
+    display: flex;
+}
+
+.box3 {
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 35rem;
+    width: 58.5rem;
+    background-image: url("./images/apple\ watch.jpg");
+    background-size: auto 50rem;
+    background-position: center;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.logoW {
+    text-align: center;
+    display: flex;
+    margin-left: 43%;
+}
+
+.box3 img {
+    margin-top: 40px;
+}
+
+.box4 {
+    background-image: url("./images/ipad.jpg");
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 35rem;
+    width: 58.5rem;
+    background-size: auto 50rem;
+    background-position: center;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.ipPro {
+    margin-top: 40px;
+}
+
+.main2 a {
+    color: #68A4E1;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.main3 {
+    display: flex;
+}
+
+.main3 a {
+    color: black;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.box5 {
+    background-image: url("./images/hello\ kitty.jpg");
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 35rem;
+    width: 58.5rem;
+    background-size: auto 50rem;
+    background-position: center;
+    color: white;
+    text-align: center;
+    align-items: center;
+    color: black;
+}
+
+.box5 img {
+    margin-top: 40px;
+}
+
+.box6 {
+    background-image: url("./images/apple\ card.jpg");
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 35rem;
+    width: 58.5rem;
+    background-size: auto 50rem;
+    background-position: center;
+    color: white;
+    text-align: center;
+    align-items: center;
+    color: black;
+}
+
+.box6 img {
+    margin-top: 40px;
+}
+
+.box6 a {
+    color: #68A4E1;
+    text-decoration: none;
+}
+
+.appleTv {
+    margin-top: 10px;
+    margin-left: 370px;
+    margin-right: 400px;
+    size: auto;
+    width: 70rem;
+}
+
+.TandC {
+    width: 60rem;
+    padding-left: 250px;
+    align-items: center;
+    list-style: decimal;
+    color: #808085;
+    font-size: 12px;
+    margin-top: 50px;
+}
+
+hr {
+    width: 55%;
+    text-align: center;
+    margin-left: 25%;
+    color: #808085;
+}
+
+.tables {
+    display: flex;
+    margin-left: 250px;
+    font-size: 12px;
+    line-height: 30px;
+
+}
+
+.table2,
+.table3,
+.table4,
+.table5 {
+    margin-left: 60px;
+}
+
+.footer {
+    text-align: center;
+    margin-right: 19.5%;
+    font-size: 12px;
+    color: #808085;
+}
+
+.footer a {
+    color: #68A4E1;
+}
+
+.footer2 {
+    text-align: center;
+    margin-right: 1%;
+    font-size: 12px;
+    color: #808085;
+}
+
+.pP {
+    margin-left: 5%;
+}
+
+.US {
+    margin-left: 5%;
+}
+
+.foot {
+    line-height: 25px;
+}
+
+/* .hori{
+    width: 100%;
+} */
+p:hover {
+    text-decoration: underline;
+}
+
+.b1 {
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(69, 74, 210);
+    width: 100px;
+    height: 30px;
+
+    border: none;
+}
+
+.b1:hover {
+    background-color: rgb(69, 74, 200);
+}
+
+.b2 {
+    border-radius: 15px;
+    background-color: white;
+    color: rgb(69, 74, 210);
+
+    width: 70px;
+    height: 30px;
+    border: none;
+}
+.b3{
+    border-radius: 15px;
+    background-color: white;
+    color: rgb(69, 74, 210);
+
+    width: 100px;
+    height: 30px;
+    border: none;  
+}
+.b3:hover {
+    color: white;
+    background-color: rgb(58, 58, 197);
+}
+
+.b2:hover {
+    color: white;
+    background-color: rgb(58, 58, 197);
+}
+.video{
+    background-image: url("./images/WhatsApp\ Video\ 2024-04-13\ at\ 17.53.05_2dcaf83b.mp4");
+}
+ 
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    /* margin-top: 50px; */
+}
+
+#video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    object-fit: cover;
+}
+
+.content {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 1; /* Ensure content appears above the video */
+    /* margin-top: 50px; */
+
+}
+nav {
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+.imgcon2{
+    margin-top: 10px;
+}
+.footer{
+    font-size: larger;
+}
+#asma{
+    background-image: url("./images/WhatsApp\ Video\ 2024-04-17\ at\ 10.27.11_50f9ffcd.mp4" );
+    width: 105%;
+}
+ 
+.video-container2 {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    margin-top: 35px;
+}
+
+#video-background2 {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+    object-fit: cover;
+}
+.carousel-inner{
+    width: 70%;
+    height: 100vh;
+    margin-top: 2%;
+}
+
+ 
