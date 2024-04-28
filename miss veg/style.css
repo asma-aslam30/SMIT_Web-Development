@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1em;
+}
+
+/* .main{
+    background-color: red;
+    height: 100vh;
+} */
+/* .section{
+    
+    background-color: aqua;
+   
+    
+} */
+/* .left{ */
+    /* background-color: green; */
+    /* margin-top: 10px; */
+    
+/* } */
+/* .right{ */
+    /* background-color: beige; */
+/* } */
+/* .head-1{ */
+
+/* font-size: 3rem;
+font-weight: 500;
+text-align: left;
+
+} */
+/* .head-2{
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: left;
+    color: #ECAD15;
+
+
+}
+.right p{
+    color: black;
+    font-size: 1em;
+}
+
+.btn-yellow{
+    background-color: #ECAD15;
+    color: #fff;
+    border-radius: 1px !important;
+}
+.btn-yellow:hover{
+    color: balck;
+}
+.btn-grey{
+    background-color: #252525;
+    color: #fff;
+    border-radius: 1px !important;
+
+}
+.btn-grey:hover{
+    color: balck;
+}
+.veg-section{
+    text-align: center;
+}
+@media (min-width: 577px) and (max-width: 768px) {
+ .main{
+   background-color: #ECAD15;
+ }
+ .veg{
+    margin-top: 155px !important;
+ }
+ 
+} */
+
+/* responsive.css */
+/* @media (min-width: 300px) and (max-width: 576px) {
+    .main{
+        background-color: aquamarine;
+    }
+    .section{
+        padding-top: 10px !important;
+    }
+    .ownbtn{
+        margin-top: 40px !important;
+        
+    }
+    .btn-grey, .btn-yellow{
+        margin: 10px;
+    }
+    .right p{
+        text-align: left;
+    }
+    .veg{
+        margin-bottom:10px; ;
+    }
+    
+  } */
